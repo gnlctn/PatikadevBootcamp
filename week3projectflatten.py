@@ -6,11 +6,12 @@
 #list(deepflatten(clist))
 
 
-def FLATTEN(xlist, flist):
+def FLATTEN(xlist, fattenlist):
     for i in xlist:
         if isinstance(i, list):
-            FLATTEN(i, flist)
+            #isinstance metodu ile bir objenin türü tespit edilip döngülerde kullanılır.
+            FLATTEN(i, flattenlist)
         else:
-            flist.append(i)
-    return flist
+            flattenlist.append(i)
+    return fflattenlist
 print(FLATTEN([[1,'a',['cat'],2],[[[3]],'dog'],4,5], []))
