@@ -3,12 +3,12 @@
 def Reverse(rlist, reversedlist):
     
     rlist.reverse()
-   # print(xlist)
+   # print(rlist)
     for i in rlist:
-        if isinstance(i, list):
+        if isinstance(i, list): #Burada isinstance ile i'nin türü kontrol ediliyor. isintance(object,type).
             Reverse(i, reversedlist)
         else:
-            """a=xlist.index(i)  
+            """a=rlist.index(i)  
             print(a)   index kullanarak listeyi yeni bir listeye aktarmadan reverse yapabilir miyim
             onu denemeye çalıştım"""
             
