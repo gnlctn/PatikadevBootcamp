@@ -1,2 +1,2 @@
 # PatikadevBootcamp
-Patika.dev&amp; Garanti BBVA Teknoloji Becoder Yazılım Akademisi Bootcamp'i uygulaması.
+Patika.dev&amp; Garanti BBVA Teknoloji Becoder Yazılım Akademisi Bootcamp uygulamaları.
