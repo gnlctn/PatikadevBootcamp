@@ -20,3 +20,17 @@ intersect
 except
 ( select first_name from customer
 )
+
+
+-- 4.1
+( select first_name from actor)
+union all
+( select first_name from customer)
+
+-- 4.2
+--Kesişim zaten tekrarlayan verileri kullandı
+
+-- 4.3
+( select first_name from actor)
+except all
+( select first_name from customer)
